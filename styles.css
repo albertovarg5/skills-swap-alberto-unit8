@@ -1,0 +1,23 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f7fb;
+  color: #222;
+}
+
+header, footer {
+  background: #243b53;
+  color: white;
+  padding: 20px;
+}
+
+main {
+  padding: 30px;
+}
+
+.hero {
+  background: #d9eaf7;
+  padding: 35px;
+  border-radius: 10px;
+}
