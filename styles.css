@@ -21,3 +21,54 @@ main {
   padding: 35px;
   border-radius: 10px;
 }
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+#skills {
+  margin-top: 35px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.filter-btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #e0e7ef;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: #243b53;
+  color: white;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.skill-card h3 {
+  color: #243b53;
+  margin-top: 0;
+}
