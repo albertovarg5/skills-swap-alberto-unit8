@@ -1,0 +1,24 @@
+{
+  "name": "skills-swap-alberto-unit8",
+  "version": "1.0.0",
+  "description": "Skill Swap is a website where students can share their skills and learn new things from other students.",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertovarg5/skills-swap-alberto-unit8.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/albertovarg5/skills-swap-alberto-unit8/issues"
+  },
+  "homepage": "https://github.com/albertovarg5/skills-swap-alberto-unit8#readme",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
