@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +12,7 @@
   <header>
     <h1>Skill Swap</h1>
     <nav>
-      <!-- Navigation will be added in a later branch -->
+      <a href="#skills">Available Skills</a>
     </nav>
   </header>
 
@@ -21,9 +22,18 @@
       <p>Connect with students and exchange skills.</p>
     </section>
 
-    <section>
+    <section id="skills">
       <h2>Available Skills</h2>
-      <p>Skill offerings will appear here.</p>
+      <p>Choose a category to find skills.</p>
+
+      <div class="filters">
+        <button class="filter-btn active" data-category="All">All</button>
+        <button class="filter-btn" data-category="Programming">Programming</button>
+        <button class="filter-btn" data-category="Music">Music</button>
+        <button class="filter-btn" data-category="Career">Career</button>
+      </div>
+
+      <div id="skills-container" class="skills-grid"></div>
     </section>
   </main>
 
@@ -31,6 +41,7 @@
     <p>&copy; 2026 Skill Swap</p>
   </footer>
 
+  <script src="skillswap-functions.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
